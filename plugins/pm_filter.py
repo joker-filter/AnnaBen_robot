@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url='http://t.me/medias_search_robot?startgroup=true')
             ],[
-            InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', url='https://t.me/TAMILROCKERS_REQUEST')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
