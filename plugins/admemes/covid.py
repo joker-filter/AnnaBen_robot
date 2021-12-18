@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 API = "https://api.sumanjay.cf/covid/?country="
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Annaben_support')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', url='https://t.me/Robert_Pattinson119')]])
 
 
 @Client.on_message(filters.command("covid"))
@@ -46,7 +46,7 @@ Latitude : `{latitude}`
 Longitude : `{longitude}`
 Recovered : `{recovered}`
 
-Made by @lallu_tg ❤️"""
+Made by @Robert_Pattinson119 ❤️"""
         return covid_info
     except Exception as error:
         return error
