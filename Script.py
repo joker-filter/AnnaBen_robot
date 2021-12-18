@@ -6,7 +6,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 ⚠️More Help Check Help Button Below</b>
 
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ  <a href="https://t.me/Robert_Pattinson119">🅁🄾🄱🄴🅁🅃</a>
-𝙼𝚢 𝚗𝚊𝚖𝚎
+
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
