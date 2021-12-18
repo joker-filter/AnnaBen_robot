@@ -26,7 +26,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
     SOURCE_TXT = """<b>NOTE:</b>
 - 𝑰 𝒂𝒎 𝒏𝒐𝒕 𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- 𝗗𝗘𝗩 - <a href="@Robert_Pattinson119"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
+- 𝗗𝗘𝗩 - <a href="https://t.me/Robert_Pattinson119"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
 
 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 :
 <a href="https://t.me/FilmyFunda_movies"> 𝚃𝚎𝚊𝚖 𝙵𝙵 </a>"""
