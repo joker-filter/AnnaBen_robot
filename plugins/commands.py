@@ -37,9 +37,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗚𝗥𝗢𝗨𝗣', url='http://t.me/medias_search_robot?startgroup=true')
+            InlineKeyboardButton('𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url='http://t.me/medias_search_robot?startgroup=true')
             ],[
-            InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', url='https://t.me/TAMILROCKERS_REQUEST')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -78,9 +78,9 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗚𝗥𝗢𝗨𝗣', url='http://t.me/medias_search_robot?startgroup=true')
+            InlineKeyboardButton('𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣', url='http://t.me/medias_search_robot?startgroup=true')
             ],[
-            InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ʀᴇϙᴜᴇsᴛ', url='https://t.me/TAMILROCKERS_REQUEST')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
