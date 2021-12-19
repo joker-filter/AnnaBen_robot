@@ -463,6 +463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Robert_Pattinson119/8')
             ],[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ✗', callback_data='close_data')
