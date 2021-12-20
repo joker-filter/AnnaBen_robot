@@ -430,18 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʀᴇsᴛʀɪᴄᴛ', callback_data='restric'),
             InlineKeyboardButton('sᴇᴀʀᴄʜ', callback_data='search')
             ],[
-            InlineKeyboardButton('<< ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ɴᴇxᴛ >>', callback_data='next')
-         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.HELP_TXT.format(query.from_user.mention),
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-     elif query.data == "next":
-        buttons = [[
+         
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
             
             InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois'),
@@ -458,11 +447,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀɪᴅ', callback_data='stickerid')
           
             ],[
-            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.NEXT_TXT.format(query.from_user.mention),
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
