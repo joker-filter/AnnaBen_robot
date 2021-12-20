@@ -433,7 +433,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('<< ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ɴᴇxᴛ >>', callback_data='next')
         ]]
-         
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.HELP_TEXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
    elif query.data == "next":
        buttons = [[
             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tgraph'),
