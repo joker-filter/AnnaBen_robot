@@ -8,7 +8,7 @@ from info import COMMAND_HAND_LER
 from plugins.helper_functions.cust_p_filters import f_onw_fliter
 
 # -- Constants -- #
-ALIVE = "Yo Yo, I'm Always Online 🤓, Because We Just Rocks...😎\n\n ⍟𝐌𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫: @Robert_Pattinson119/8\n\n⍟𝐌𝐲 𝐬𝐮𝐩𝐩𝐨𝐫𝐭: https://t.me/+j4CnQAHRq7lhNjM1\n\n⍟𝐌𝐲 𝐮𝐩𝐝𝐚𝐭𝐞𝐬: @Robert_Pattinson119\n\n⍟𝐌𝐲 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐫: @FilmyFunda_movies"
+ALIVE = "Yo Yo, I'm Always Online 🤓, Because We Just Rocks...😎\n\n ⍟𝐌𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫: <a href=https://t.me/Robert_Pattinson119/8>Rᴏʙᴇʀᴛ ☮ Pᴀᴛᴛɪɴsᴏɴ</a>\n\n⍟𝐌𝐲 𝐬𝐮𝐩𝐩𝐨𝐫𝐭: <a href=https://t.me/+j4CnQAHRq7lhNjM1>🇸 🇺 🇵 🇵 🇴 🇷 🇹 </a>\n\n⍟𝐌𝐲 𝐮𝐩𝐝𝐚𝐭𝐞𝐬: @Robert_Pattinson119\n\n⍟𝐌𝐲 𝐬𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐫: @FilmyFunda_movies"
 HELP = "God save me alone ⚡...."
 REPO = "we have become the underworld without even knowing it..."
 # -- Constants End -- #
