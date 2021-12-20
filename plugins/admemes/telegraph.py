@@ -45,11 +45,11 @@ async def telegraph(client, message):
                 [
                     InlineKeyboardButton(text="ᴏᴘᴇɴ ʟɪɴᴋ", url=f"https://telegra.ph{response[0]}"),
                     InlineKeyboardButton(text="sʜᴀʀᴇ ʟɪɴᴋ", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
-                ],
-                [InlineKeyboardButton(text="✗ ᴄʟᴏsᴇ ✗", callback_data="close_data")]
-                ],
-                [InlineKeyboardButton(text="Rᴏʙᴇʀᴛ ☮ Pᴀᴛᴛɪɴsᴏɴ", url="https://t.me/Robert_Pattinson119")]
-            ]
+                ],[
+                InlineKeyboardButton(text="✗ ᴄʟᴏsᴇ ✗", callback_data="close_data"),
+                ],[
+                InlineKeyboardButton(text="Rᴏʙᴇʀᴛ ☮ Pᴀᴛᴛɪɴsᴏɴ", url="https://t.me/Robert_Pattinson119")
+            ]]
         )
     )
     finally:
