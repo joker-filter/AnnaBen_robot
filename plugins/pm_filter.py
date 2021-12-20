@@ -447,7 +447,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('sᴛɪᴄᴋᴇʀɪᴅ', callback_data='stickerid'),
           
             ],[
-            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -734,7 +734,7 @@ InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manualfilter')
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='about'),
-            InlineKeyboardButton('ʀᴇғʀᴇsʜ ⧖', callback_data='rfrsh')
+            InlineKeyboardButton('ʀᴇғʀᴇsʜ ⧖', callback_data='refresh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
