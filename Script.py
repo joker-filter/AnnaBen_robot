@@ -20,8 +20,8 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
-    NEXT_TXT =  """𝙷𝙴𝚈 {}
-𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
+
+
   
     ABOUT_TXT = """
 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘𝗦𝗦𝗔𝗚𝗘
