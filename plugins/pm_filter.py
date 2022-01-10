@@ -734,7 +734,7 @@ InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manualfilter')
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='about'),
-            InlineKeyboardButton('ʀᴇғʀᴇsʜ ⧖', callback_data='refresh')
+            InlineKeyboardButton('ʀᴇғʀᴇsʜ ⧖', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
