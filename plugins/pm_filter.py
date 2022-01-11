@@ -394,7 +394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_id=file_id,
             caption=f_caption
             )
-
+            
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
